@@ -1,0 +1,88 @@
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #af4c75;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #a04589;
+  color: white;
+}
+
+
+
+.about-us-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: underline; 
+  color: #ff0095;
+}
+
+.about-us-content {
+  font-size: 16px;
+}
+
+
+
+.about-us-icon {
+  text-align: center;
+}
+
+.about-us-icon img {
+  width: 50px; /* Adjust the size of the icon */
+}
+
+.about-us-icon p {
+  margin-top: 5px; 
+}
+.our-values h2 {
+  font-size: 24px; 
+  text-decoration: underline; 
+  margin-top: 30px;
+  color: #ff0095;
+}
+
+
+
+.our-values img {
+  width: 200px; 
+  height: auto; 
+  margin-top: 20px; 
+}
+
+.special-paragraph {
+  
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMyWcBw3c4qYZsxo4VdneKoyUx5WSNE0kWhg&usqp=CAU'); /* Add background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-top: 20px; /* Add margin-top to separate from previous content */
+}
