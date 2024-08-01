@@ -1,0 +1,96 @@
+/* careers.css */
+
+.background-image-heading {
+    background-image: url(../../images/img3.jpg);
+    background-size: cover; /* Adjust 'cover' to other values like 'contain' */
+    background-position: left;
+    color: #0a0a0a;
+    padding: 200px;
+    text-align: top;
+    margin-bottom: 20px;
+    margin-top: 0;
+    display: flex; /* Add this line */
+    align-items: flex-start; /* Add this line */
+}
+
+
+
+.careers-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Job opening styling */
+.job-opening {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    background: linear-gradient(135deg, rgba(79,170,213,1) 35%, rgba(87,202,106,1) 86%);
+}
+
+.job-opening h4 {
+    margin-top: 0;
+}
+
+.job-details {
+    margin-bottom: 20px;
+}
+
+.detail {
+    margin-bottom: 10px;
+}
+
+.detail h6 {
+    margin-bottom: 5px;
+    color: #3b3b3c; /* Department color */
+}
+
+.detail p {
+    color: #3b3b3c; /* Qualification color */
+}
+
+.apply-btn {
+    background-color: #0f1044;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #0056b3;
+}
+
+.quotes-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+  }
+  
+  .quote {
+    width: calc(50% - 10px); /* Adjust width as needed */
+    background-color: #bbbbc3;
+    background :linear-gradient(135deg, rgb(224, 215, 40) 35%, rgba(87,202,106,1) 86%);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 80%;    
+  }
+  
+  
+  .quote p {
+    font-style: arial;
+
+  }
+  
+  .quote p:first-child {
+    margin-bottom: 5px;
+  }
+  .my-background{
+    background: rgb(79,170,213);
+background: linear-gradient(135deg, rgba(79,170,213,1) 35%, rgba(87,202,106,1) 86%);
+  }

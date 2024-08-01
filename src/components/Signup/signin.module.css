@@ -1,0 +1,37 @@
+/* signin.module.css */
+
+.mybackground {
+  background: url(../../images/doctors2.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  height: calc(100vh - 60px); /* Set height to fill the viewport minus the height of the navbar */
+  margin-top: 0; /* Remove any existing top margin */
+  padding-top: 60px; /* Add padding to compensate for the navbar height */
+  color: whitesmoke; 
+      
+    
+}
+.signinContainer {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, rgba(24,78,104,0.8) 65%, rgba(87,202,133,1) 98%);
+  height: 400px;
+}
+
+.signinForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.signinInput {
+  width: 100%;
+  padding: 8px;
+  margin-top:20px ;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

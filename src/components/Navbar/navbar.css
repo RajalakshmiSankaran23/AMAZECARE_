@@ -1,0 +1,27 @@
+.navbar-custom {
+    background: linear-gradient(to right, #436892, #042347); /* Gradient background */
+    height: 70px; /* Increase the height of the navbar */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Default text color */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #10161c !important; /* Text color on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #fff; /* Dropdown background color */
+    border: none; /* Remove dropdown border */
+  }
+  .navbar-logo {
+    width: 70px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional: Add margin for spacing */
+    border-radius: 30%;
+}
+.nav-item{
+  color: #fff;
+}

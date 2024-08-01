@@ -1,0 +1,63 @@
+/* styles.module.css */
+
+.background-image {
+    background: url(../../images/img4.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: calc(100vh - 60px); /* Set height to fill the viewport minus the height of the navbar */
+    margin-top: 0; /* Remove any existing top margin */
+    padding-top: 60px; /* Add padding to compensate for the navbar height */
+    color: whitesmoke; /* Set text color to white */
+    
+    /* Add other background properties like background-size, background-position, etc. as needed */
+  }
+  
+
+.form-container {
+    color: azure;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(24, 77, 104, 0.8); /* Adjust the opacity (0.8 in this case) */
+    background: linear-gradient(135deg, rgba(24,78,104,0.8) 65%, rgba(87,202,133,1) 98%);
+     /* Add background color with transparency */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: calc(100% - 20px); /* Reduce width by 20px */
+    padding: 8px; /* Reduce padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group textarea {
+    height: 80px; /* Reduce height of textarea */
+  }
+  
+  button[type="submit"] {
+    font-family: "Montserrat";
+    background-color: #1a5989;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0a2849;
+  }
+  
